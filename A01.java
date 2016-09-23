@@ -12,7 +12,7 @@ class A01 {
 
 	void start() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("태어난 년도를 입력하세요 : ");
+		System.out.print("what is your birth year? : ");
 		int year = s.nextInt();
 		this.age = 2016 - year + 1;
 		cal();
@@ -21,9 +21,9 @@ class A01 {
 	void cal() {
 
 		if(this.age < 20)
-			System.out.println("미성년자입니다.");
+			System.out.println("You are child.");
 		else
-			System.out.println("미성년자가 아닙니다.");
+			System.out.println("You are Adult.");
 
 	}
 }

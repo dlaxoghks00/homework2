@@ -6,7 +6,7 @@ class A01 {
 
 	public static void main(String[] s){
 	
-		new A01.start();
+		new A01().start();
 	
 	}
 
